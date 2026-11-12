@@ -1,10 +1,7 @@
-$ curl -i -X DELETE localhost:8080/song/1
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+$ curl -si -X DELETE localhost:8080/song/1
 HTTP/1.1 204 NO CONTENT
 Server: Werkzeug/2.1.2 Python/3.11.15
-Date: Thu, 12 Nov 2026 21:20:01 GMT
+Date: Thu, 12 Nov 2026 21:20:30 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 

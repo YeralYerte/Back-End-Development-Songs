@@ -1,10 +1,7 @@
-$ curl -i localhost:8080/health
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    16  100    16    0     0   6625      0 --:--:-- --:--:-- --:--:--  8000
+$ curl -si localhost:8080/health
 HTTP/1.1 200 OK
 Server: Werkzeug/2.1.2 Python/3.11.15
-Date: Thu, 12 Nov 2026 21:20:01 GMT
+Date: Thu, 12 Nov 2026 21:20:30 GMT
 Content-Type: application/json
 Content-Length: 16
 Connection: close

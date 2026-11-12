@@ -1,13 +1,10 @@
-$ curl -i -X PUT localhost:8080/song/1 -H 'Content-Type: application/json' -d '{"lyrics": "updated lyrics for song 1", "title": "updated title"}'
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   177  100   112  100    65  12334   7158 --:--:-- --:--:-- --:--:-- 19666100   177  100   112  100    65  12109   7027 --:--:-- --:--:-- --:--:-- 17700
+$ curl -si -X PUT localhost:8080/song/1 -H 'Content-Type: application/json' -d '{"lyrics": "updated lyrics for song 1", "title": "updated title"}'
 HTTP/1.1 201 CREATED
 Server: Werkzeug/2.1.2 Python/3.11.15
-Date: Thu, 12 Nov 2026 21:20:01 GMT
+Date: Thu, 12 Nov 2026 21:20:30 GMT
 Content-Type: application/json
 Content-Length: 112
 Connection: close
 
-{"_id":{"$oid":"6af62d686b0a9f77713c27b6"},"id":1,"lyrics":"updated lyrics for song 1","title":"updated title"}
+{"_id":{"$oid":"6af62d999af2e2029d1b25ec"},"id":1,"lyrics":"updated lyrics for song 1","title":"updated title"}
 
